@@ -1,6 +1,6 @@
-# BM_MEDIA es una web App clone de YouTube, la cual te permite reproducir y buscar videos tal y como te aparecen en Youtube ya que los videos los extrae del mismo Youtube.
+# BM_MEDIA es una web App clone de YouTube, la cual te permite reproducir y buscar videos tal y como te aparecen en Youtube, ya que los videos los extrae del mismo Youtube.
 
-Creada con las siguientes Tecnologias:
+Creada con las siguientes Tecnologías:
 
 -ReactJs
 
