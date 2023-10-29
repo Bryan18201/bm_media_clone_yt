@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1695907612742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1695907906108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import { BrowserRouter, Routes, Route } from 'react-router-dom'\r\n import { Box } from '@mui/material'\r\n \r\n import {Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed} from './components';\r\n-require('dotenv').config()\r\n \r\n+\r\n const App = () => (\r\n   <BrowserRouter>\r\n   <Box sx={{ backgroundColor: '#000' }}>\r\n     <Navbar />\r\n"
+                },
+                {
+                    "date": 1698452803105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import { Box } from '@mui/material'\r\n \r\n import {Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed} from './components';\r\n \r\n+require('dotenv').config()\r\n \r\n const App = () => (\r\n   <BrowserRouter>\r\n   <Box sx={{ backgroundColor: '#000' }}>\r\n"
+                },
+                {
+                    "date": 1698452921305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n import { Box } from '@mui/material'\r\n \r\n import {Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed} from './components';\r\n \r\n-require('dotenv').config()\r\n-\r\n+const test = require('dotenv').config()\r\n+console.log(test)\r\n const App = () => (\r\n   <BrowserRouter>\r\n   <Box sx={{ backgroundColor: '#000' }}>\r\n     <Navbar />\r\n"
+                },
+                {
+                    "date": 1698452988879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,9 @@\n import { Box } from '@mui/material'\r\n \r\n import {Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed} from './components';\r\n \r\n-const test = require('dotenv').config()\r\n-console.log(test)\r\n+\r\n const App = () => (\r\n   <BrowserRouter>\r\n   <Box sx={{ backgroundColor: '#000' }}>\r\n     <Navbar />\r\n"
+                }
+            ],
+            "date": 1695907612742,
+            "name": "Commit-0",
+            "content": "import { BrowserRouter, Routes, Route } from 'react-router-dom'\r\nimport { Box } from '@mui/material'\r\n\r\nimport {Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed} from './components';\r\nrequire('dotenv').config()\r\n\r\nconst App = () => (\r\n  <BrowserRouter>\r\n  <Box sx={{ backgroundColor: '#000' }}>\r\n    <Navbar />\r\n    <Routes>\r\n      <Route exact path='/' element={<Feed />} />\r\n      <Route path='/video/:id' element={<VideoDetail />} />\r\n      <Route path='/channel/:id' element={<ChannelDetail />} />\r\n      <Route path='/search/:searchTerm' element={<SearchFeed />} />\r\n    </Routes>\r\n  </Box>\r\n</BrowserRouter>\r\n  \r\n  \r\n  \r\n    );\r\n\r\n\r\nexport default App"
+        }
+    ]
+}
