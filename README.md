@@ -2,7 +2,8 @@
 
 Web application in which you can view videos from the Youtube platform as if you were on it, you can explore different categories, search for what you want and explore the channel you want. Created with the following technologies:  
 
-![image](https://github.com/Bryan18201/bm_media_clone_yt/assets/80865397/eb794677-9a51-4aa0-b092-67221d83f3ae)
+![image](https://github.com/Bryan18201/bm_media_clone_yt/assets/80865397/f90a5f24-8675-4ee8-8757-c2f7b268dfed)
+
 
  ## Table of contents:
 - [Demo](#demo)
