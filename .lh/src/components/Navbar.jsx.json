@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/components/Navbar.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1698758838983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1698758848340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import { Stack } from \"@mui/material\"\r\n+import { Link } from \"react-router-dom\"\r\n+import { logo } from \"../utils/constants\"\r\n+import SearchBar from \"./SearchBar\"\r\n+\r\n+const Navbar = () => (\r\n+    <Stack \r\n+    direction=\"row\" \r\n+    alignItems=\"center\" \r\n+    p={2} \r\n+    sx={{position: 'sticky', background: '#000',\r\n+    top: 0, justifyContent:'space-between'}}>\r\n+\r\n+    <Link to=\"/\" style={{display: 'flex', alignItems:'center'}}>\r\n+    <img src={logo} alt=\"logo\" height={55} />\r\n+    <span className=\"name_navbar\" style={{ color: \"#FC1503\", fontSize: \"40px\", padding: \"10px\", fontFamily: \"Roboto\" }}\r\n+\r\n+    >BM MEDIA</span>  \r\n+    </Link>\r\n+    \r\n+    <SearchBar/>\r\n+\r\n+    \r\n+    </Stack>\r\n+ \r\n+ \r\n+ \r\n+    )\r\n+\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1698758866358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import { Stack } from \"@mui/material\"\r\n+import { Link } from \"react-router-dom\"\r\n+import { logo } from \"../utils/constants\"\r\n+import SearchBar from \"./SearchBar\"\r\n+\r\n+const Navbar = () => (\r\n+    <Stack \r\n+    direction=\"row\" \r\n+    alignItems=\"center\" \r\n+    p={2} \r\n+    sx={{position: 'sticky', background: '#000',\r\n+    top: 0, justifyContent:'space-between'}}>\r\n+\r\n+    <Link to=\"/\" style={{display: 'flex', alignItems:'center'}}>\r\n+    <img src={logo} alt=\"logo\" height={55} />\r\n+    <span className=\"name_navbar\" style={{ color: \"#FC1503\", fontSize: \"40px\", padding: \"10px\", fontFamily: \"Roboto\", fontWeight: \"bold\" }}\r\n+\r\n+    >BM MEDIA</span>  \r\n+    </Link>\r\n+    \r\n+    <SearchBar/>\r\n+\r\n+    \r\n+    </Stack>\r\n+ \r\n+ \r\n+ \r\n+    )\r\n+\r\n+\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1698758907394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,31 +1,38 @@\n-import { Stack } from \"@mui/material\"\r\n-import { Link } from \"react-router-dom\"\r\n-import { logo } from \"../utils/constants\"\r\n-import SearchBar from \"./SearchBar\"\r\n+import { Stack } from \"@mui/material\";\r\n+import { Link } from \"react-router-dom\";\r\n+import { logo } from \"../utils/constants\";\r\n+import SearchBar from \"./SearchBar\";\r\n \r\n const Navbar = () => (\r\n-    <Stack \r\n-    direction=\"row\" \r\n-    alignItems=\"center\" \r\n-    p={2} \r\n-    sx={{position: 'sticky', background: '#000',\r\n-    top: 0, justifyContent:'space-between'}}>\r\n-\r\n-    <Link to=\"/\" style={{display: 'flex', alignItems:'center'}}>\r\n-    <img src={logo} alt=\"logo\" height={55} />\r\n-    <span className=\"name_navbar\" style={{ color: \"#FC1503\", fontSize: \"40px\", padding: \"10px\", fontFamily: \"Roboto\", fontWeight: \"bold\" }}\r\n-\r\n-    >BM MEDIA</span>  \r\n+  <Stack\r\n+    direction=\"row\"\r\n+    alignItems=\"center\"\r\n+    p={2}\r\n+    sx={{\r\n+      position: \"sticky\",\r\n+      background: \"#000\",\r\n+      top: 0,\r\n+      justifyContent: \"space-between\",\r\n\\ No newline at end of file\n+    }}\r\n+  >\r\n+    <Link to=\"/\" style={{ display: \"flex\", alignItems: \"center\" }}>\r\n+      <img src={logo} alt=\"logo\" height={55} />\r\n+      <span\r\n+        className=\"name_navbar\"\r\n+        style={{\r\n+          color: \"#FC1503\",\r\n+          fontSize: \"40px\",\r\n+          padding: \"10px\",\r\n+          fontFamily: \"Roboto\",\r\n+          fontWeight: \"bold\",\r\n+        }}\r\n+      >\r\n+        BM MEDIA\r\n+      </span>\r\n     </Link>\r\n-    \r\n-    <SearchBar/>\r\n \r\n-    \r\n-    </Stack>\r\n- \r\n- \r\n- \r\n-    )\r\n+    <SearchBar />\r\n+  </Stack>\r\n+);\r\n \r\n-\r\n-export default Navbar\n+export default Navbar;\r\n"
+                }
+            ],
+            "date": 1698758838983,
+            "name": "Commit-0",
+            "content": "import { Stack } from \"@mui/material\"\r\nimport { Link } from \"react-router-dom\"\r\nimport { logo } from \"../utils/constants\"\r\nimport SearchBar from \"./SearchBar\"\r\n\r\nconst Navbar = () => (\r\n    <Stack \r\n    direction=\"row\" \r\n    alignItems=\"center\" \r\n    p={2} \r\n    sx={{position: 'sticky', background: '#000',\r\n    top: 0, justifyContent:'space-between'}}>\r\n\r\n    <Link to=\"/\" style={{display: 'flex', alignItems:'center'}}>\r\n    <img src={logo} alt=\"logo\" height={55} />\r\n    <span className=\"name_navbar\" style={{ color: \"#FC1503\", fontSize: \"40px\", padding: \"10px\", font }}\r\n\r\n    >BM MEDIA</span>  \r\n    </Link>\r\n    \r\n    <SearchBar/>\r\n\r\n    \r\n    </Stack>\r\n \r\n \r\n \r\n    )\r\n\r\n\r\nexport default Navbar"
+        }
+    ]
+}
